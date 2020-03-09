@@ -30,6 +30,10 @@ const MyAccount = props => {
                     <HistoryIcon size={18} />
                     {PURCHASE_HISTORY}
                 </AccountLink>
+                <AccountLink>
+                    <HistoryIcon size={18} />
+                    {PURCHASE_HISTORY}
+                </AccountLink>
                 <AccountLink onClick={handleSignOut}>
                     <SignOutIcon size={18} />
                     {SIGN_OUT}
