@@ -101,5 +101,17 @@
       "path": "./packages/venia-concept/dist/+([0-9]).*.js",
       "maxSize": "100 kB"
     }
-  ]
+  ],
+  "description": "[![Coverage Status](https://coveralls.io/repos/github/magento/pwa-studio/badge.svg)](https://coveralls.io/github/magento/pwa-studio)",
+  "dependencies": {
+    "@magento/venia-concept": "^5.0.1",
+    "bundlesize": "~0.17.1",
+    "sharp": "~0.23.3"
+  },
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sankharay/reactjs.git"
+  },
+  "keywords": []
 }
