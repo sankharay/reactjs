@@ -8,12 +8,12 @@ const CartPage = lazy(() => import('@magento/venia-ui/lib/components/CartPage'))
 const CheckoutPage = lazy(() => import('@magento/venia-ui/lib/components/CheckoutPage'));
 const CreateAccountPage = lazy(() => import('@magento/venia-ui/lib/components/CreateAccountPage'));
 const Search = lazy(() => import('@magento/venia-ui/lib/RootComponents/Search'));
+const Rewards = lazy(() => import('../Rewards'));
 
 const Routes = () => {
     return (
         <Suspense fallback={fullPageLoadingIndicator}>
             <Switch>
-                <Route exact path="/foo.html" render={() => <h3>Hello World JSX.</h3>}/>
                 <Route exact path="/search.html">
                     <Search />
                 </Route>
@@ -26,10 +26,13 @@ const Routes = () => {
                 <Route exact path="/checkout">
                     <CheckoutPage />
                 </Route>
+                <Route exact path="/foo.html" render={() => <h3>Hello World JSX.</h3>} />
+                <Route exact path="/rewards.html">
+                    <Rewards title="Welcome to Rewards" />
+                </Route>
                 <Route>
                     <MagentoRoute />
                 </Route>
-                <Route exact path="/foo.html" render={() => <h3>Hello World JSX.</h3>} />
             </Switch>
         </Suspense>
     );
