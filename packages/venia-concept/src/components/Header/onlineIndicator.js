@@ -2,9 +2,9 @@ import React from 'react';
 import { bool, shape, string } from 'prop-types';
 
 import { CloudOff as CloudOffIcon } from 'react-feather';
-import { mergeClasses } from '../../classify';
+import { mergeClasses } from '@magento/venia-ui/lib/classify';
 
-import Icon from '../Icon';
+import Icon from '@magento/venia-ui/lib/components/Icon';
 import defaultClasses from './onlineIndicator.css';
 
 /**

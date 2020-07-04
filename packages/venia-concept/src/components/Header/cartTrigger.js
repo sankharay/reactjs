@@ -4,10 +4,10 @@ import { ShoppingCart as ShoppingCartIcon } from 'react-feather';
 
 import { useCartTrigger } from '@magento/peregrine/lib/talons/Header/useCartTrigger';
 
-import Icon from '../Icon';
-import { mergeClasses } from '../../classify';
-import CREATE_CART_MUTATION from '../../queries/createCart.graphql';
-import GET_CART_DETAILS_QUERY from '../../queries/getCartDetails.graphql';
+import Icon from '@magento/venia-ui/lib/components/Icon';
+import { mergeClasses } from '@magento/venia-ui/lib/classify';
+import CREATE_CART_MUTATION from '@magento/venia-ui/lib/queries/createCart.graphql';
+import GET_CART_DETAILS_QUERY from '@magento/venia-ui/lib//queries/getCartDetails.graphql';
 import defaultClasses from './cartTrigger.css';
 
 const CART_ICON_FILLED = (

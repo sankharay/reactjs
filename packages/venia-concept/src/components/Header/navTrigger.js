@@ -2,8 +2,8 @@ import React from 'react';
 import { node, shape, string } from 'prop-types';
 import { Menu as MenuIcon } from 'react-feather';
 
-import Icon from '../Icon';
-import { mergeClasses } from '../../classify';
+import Icon from '@magento/venia-ui/lib/components/Icon';
+import { mergeClasses } from '@magento/venia-ui/lib/classify';
 import defaultClasses from './navTrigger.css';
 import { useNavigationTrigger } from '@magento/peregrine/lib/talons/Header/useNavigationTrigger';
 

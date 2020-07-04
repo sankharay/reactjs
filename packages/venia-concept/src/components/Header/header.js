@@ -10,10 +10,10 @@ import SearchTrigger from './searchTrigger';
 import OnlineIndicator from './onlineIndicator';
 import { useHeader } from '@magento/peregrine/lib/talons/Header/useHeader';
 
-import { mergeClasses } from '../../classify';
+import { mergeClasses } from '@magento/venia-ui/lib/classify';
 import defaultClasses from './header.css';
 
-const SearchBar = React.lazy(() => import('../SearchBar'));
+const SearchBar = React.lazy(() => import('@magento/venia-ui/lib/components/SearchBar'));
 
 const Header = props => {
     const {

@@ -2,9 +2,9 @@ import React from 'react';
 import { shape, string } from 'prop-types';
 import { Search as SearchIcon } from 'react-feather';
 
-import Icon from '../Icon';
+import Icon from '@magento/venia-ui/lib/components/Icon';
 
-import { mergeClasses } from '../../classify';
+import { mergeClasses } from '@magento/venia-ui/lib/classify';
 import defaultClasses from './searchTrigger.css';
 import { useSearchTrigger } from '@magento/peregrine/lib/talons/Header/useSearchTrigger';
 
