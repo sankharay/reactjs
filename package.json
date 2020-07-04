@@ -3,7 +3,7 @@
   "version": "5.0.1",
   "private": true,
   "engines":{
-    "node": "10.14.1",
+    "node": "12.16.3",
     "npm": "6.4.1"
   },
   "workspaces": [
